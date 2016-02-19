@@ -13,7 +13,7 @@ public class MySimpleStack implements SimpleStack {
 
         @Override
         public boolean isEmpty() {
-            return false;
+            return true;
         }
 
         @Override
