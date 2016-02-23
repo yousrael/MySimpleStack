@@ -25,12 +25,14 @@ public class MySimpleStack implements SimpleStack {
 
         @Override
         //répondre à l'exigence #2
+
         public void push(Item item) {
-            MySimpleStack Ms=new MySimpleStack();
+           // MySimpleStack Ms=new MySimpleStack();
 
         }
 
         @Override
+        //reponse à l'exigence #1
         public Item peek() throws EmptyStackException {
             return null;
             /*Item i=new Item();
