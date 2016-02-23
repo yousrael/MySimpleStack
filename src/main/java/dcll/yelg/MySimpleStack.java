@@ -9,6 +9,8 @@ public class MySimpleStack implements SimpleStack {
         @Override
         public Item pop() throws EmptyStackException {
             return null;
+           /* Item i=new Item();
+            return i;*/
         }
 
         @Override
@@ -22,13 +24,17 @@ public class MySimpleStack implements SimpleStack {
         }
 
         @Override
+        //répondre à l'exigence #2
         public void push(Item item) {
+            MySimpleStack Ms=new MySimpleStack();
 
         }
 
         @Override
         public Item peek() throws EmptyStackException {
             return null;
+            /*Item i=new Item();
+            return i;*/
         }
     }
 
