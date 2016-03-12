@@ -8,9 +8,9 @@ import java.util.EmptyStackException;
 public class MySimpleStack implements SimpleStack {
         @Override
         public Item pop() throws EmptyStackException {
+
             return null;
-           /* Item i=new Item();
-            return i;*/
+
         }
 
         @Override
@@ -20,6 +20,7 @@ public class MySimpleStack implements SimpleStack {
 
         @Override
         public int getSize() {
+
             return 0;
         }
 
@@ -35,8 +36,7 @@ public class MySimpleStack implements SimpleStack {
         //reponse à l'exigence #1
         public Item peek() throws EmptyStackException {
             return null;
-            /*Item i=new Item();
-            return i;*/
+
         }
     }
 

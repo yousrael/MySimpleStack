@@ -17,7 +17,7 @@ public class MySimpleStackTest extends TestCase {
     public void testIsEmpty() throws Exception {
         MySimpleStack  stack=new MySimpleStack();
         assertTrue(stack.isEmpty());
-        //assertEquals(0,stack.getSize());
+
 
     }
 
