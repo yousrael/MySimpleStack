@@ -5,6 +5,8 @@ import junit.framework.TestCase;
 /**
  * Created by HP on 19/02/2016.
  */
+
+//reponse à l'éxigence #3
 public class MySimpleStackTest extends TestCase {
 
     public void testPop() throws Exception {
